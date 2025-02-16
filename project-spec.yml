@@ -1,43 +1,54 @@
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# Project Specification
+# Fill out all sections marked [Required]
 
-# IDE specific files
-.vscode/*
-!.vscode/settings.json
-.idea/
-*.swp
-*.swo
+# 1. Project Overview [Required]
+ProjectName: ""  # Use kebab-case for repositories
+TechLead: ""    # Your name or the tech lead
+StartDate: ""
+Description: |
+  What this project does and why
 
-# Environment files
-.env
-.env.local
-.env.*.local
+# 2. Technical Stack [Required]
+Frontend:
+  Framework: ""  # e.g., React
+  Libraries: []  # Key libraries needed
 
-# Node
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+Backend:
+  Framework: ""  # e.g., FastAPI
+  Language: ""   # e.g., Python
+  Libraries: []  # Key libraries needed
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-.env/
-.venv/
-ENV/
+Database:
+  Type: ""       # e.g., SQLite, PostgreSQL
+  ORM: ""        # e.g., SQLAlchemy
 
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
+# 3. Core Features [Required]
+Features:
+  - name: ""
+    description: ""
+    priority: ""  # Must-have, Nice-to-have
+
+# 4. API Endpoints
+Endpoints:
+  - route: ""
+    method: ""   # GET, POST, etc.
+    purpose: ""
+
+# 5. Data Models
+Models:
+  - name: ""
+    fields:
+      - name: ""
+        type: ""
+        required: true/false
+
+# 6. Development Setup
+Setup:
+  Requirements: [] # e.g., Python 3.9+, Node 16+
+  Environment: [] # Any env variables needed
+  Commands: []    # Setup and run commands
+
+# 7. Deployment
+Deployment:
+  Platform: ""   # e.g., Heroku, Vercel
+  Process: ""    # Brief deployment steps
